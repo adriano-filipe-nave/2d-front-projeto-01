@@ -24,7 +24,7 @@ const [mostrar, setMostrar] = useState(false)
     padding: "20px"
   }
 
-  // os codigo
+  // os codigo dos mininu
 const codigos = {
   adriano: `
 // -----------------------
@@ -133,6 +133,9 @@ Explicação do Zé
        <h1 style={{ color: dark ? "#fff" : "#000" }}>
   Vamos criar nosso projeto aqui
 </h1>
+
+    {/* MENU */}
+
           <Menu>
             <Botao nome="Adriano" onClick={() => setAluno("adriano")} />
             <Botao nome="ZÉ" onClick={() => setAluno("ze")} />
@@ -151,7 +154,8 @@ Explicação do Zé
 
 
       )}
-
+  
+  {/*PÁGINA EQUIPE*/}
    
       {paginaAtual === "equipe" && (
         <>
