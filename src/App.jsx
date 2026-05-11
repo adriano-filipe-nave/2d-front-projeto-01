@@ -82,32 +82,42 @@ let novaLista = [ultimo, penultimo, antepenultimo];
 `,
 
 
-  ze: `
+  Amorim: `
 // -----------------------
 // MUITO FÁCIL
 // -----------------------
 /*
-Explicação do Zé
+Criar uma lista
 */
-let exemploez = 5;
+export const frutas = ["maçã", "banana", "laranja", 
+"uva", "pêra", "manga"]
+
 
 
 // -----------------------
 // MUITO DIFÍCIL
 // -----------------------
 /*
-Explicação do Zé
+ Realizar algo em sequência
 */
-// colocar código aqui
+//
+
+for (let comeco = 0; comeco <= fim; comeco++) {
+  console.log(comeco)
+}
+
 
 
 // -----------------------
 // AJUDOU A ENTENDER MUITA COISA
 // -----------------------
 /*
-Explicação do Zé
+ Acumular valores:
 */
-// colocar código aqui
+let acumulador = 0
+
+for (let valor = 3; valor <= 9; valor = valor + 1) {
+  acumulador += valor
 
 
 // -----------------------
@@ -116,8 +126,171 @@ Explicação do Zé
 /*
 Explicação do Zé
 */
-// colocar código aqui
-`
+//  Manipular itens de uma lista:
+
+let nomes = ["arnoldo", "betolino", "carmem", "denise", "érica", "fátima"]
+
+for (let indice = 0; indice < nomes.length; indice += 1) {
+  nomes[indice] = nomes[indice].toUpperCase()
+}
+`,
+  Emilly: `
+// -----------------------
+// MUITO FÁCIL
+// -----------------------
+/*
+Criar uma lista
+*/
+export const frutas = ["maçã", "banana", "laranja", 
+"uva", "pêra", "manga"]
+
+
+
+// -----------------------
+// MUITO DIFÍCIL
+// -----------------------
+/*
+ Realizar algo em sequência
+*/
+//
+
+for (let comeco = 0; comeco <= fim; comeco++) {
+  console.log(comeco)
+}
+
+
+
+// -----------------------
+// AJUDOU A ENTENDER MUITA COISA
+// -----------------------
+/*
+ Acumular valores:
+*/
+let acumulador = 0
+
+for (let valor = 3; valor <= 9; valor = valor + 1) {
+  acumulador += valor
+
+
+// -----------------------
+// NÃO AJUDOU A ENTENDER NADA
+// -----------------------
+/*
+Explicação do Zé
+*/
+//  Manipular itens de uma lista:
+
+let nomes = ["arnoldo", "betolino", "carmem", "denise", "érica", "fátima"]
+
+for (let indice = 0; indice < nomes.length; indice += 1) {
+  nomes[indice] = nomes[indice].toUpperCase()
+}
+`,
+  Wesley: `
+// -----------------------
+// MUITO FÁCIL
+// -----------------------
+/*
+Criar uma lista
+*/
+export const frutas = ["maçã", "banana", "laranja", 
+"uva", "pêra", "manga"]
+
+
+
+// -----------------------
+// MUITO DIFÍCIL
+// -----------------------
+/*
+ Realizar algo em sequência
+*/
+//
+
+for (let comeco = 0; comeco <= fim; comeco++) {
+  console.log(comeco)
+}
+
+
+
+// -----------------------
+// AJUDOU A ENTENDER MUITA COISA
+// -----------------------
+/*
+ Acumular valores:
+*/
+let acumulador = 0
+
+for (let valor = 3; valor <= 9; valor = valor + 1) {
+  acumulador += valor
+
+
+// -----------------------
+// NÃO AJUDOU A ENTENDER NADA
+// -----------------------
+/*
+Explicação do Zé
+*/
+//  Manipular itens de uma lista:
+
+let nomes = ["arnoldo", "betolino", "carmem", "denise", "érica", "fátima"]
+
+for (let indice = 0; indice < nomes.length; indice += 1) {
+  nomes[indice] = nomes[indice].toUpperCase()
+}
+`, 
+  Kaique: `
+// -----------------------
+// MUITO FÁCIL
+// -----------------------
+/*
+Criar uma lista
+*/
+export const frutas = ["maçã", "banana", "laranja", 
+"uva", "pêra", "manga"]
+
+
+
+// -----------------------
+// MUITO DIFÍCIL
+// -----------------------
+/*
+ Realizar algo em sequência
+*/
+//
+
+for (let comeco = 0; comeco <= fim; comeco++) {
+  console.log(comeco)
+}
+
+
+
+// -----------------------
+// AJUDOU A ENTENDER MUITA COISA
+// -----------------------
+/*
+ Acumular valores:
+*/
+let acumulador = 0
+
+for (let valor = 3; valor <= 9; valor = valor + 1) {
+  acumulador += valor
+
+
+// -----------------------
+// NÃO AJUDOU A ENTENDER NADA
+// -----------------------
+/*
+Explicação do Zé
+*/
+//  Manipular itens de uma lista:
+
+let nomes = ["arnoldo", "betolino", "carmem", "denise", "érica", "fátima"]
+
+for (let indice = 0; indice < nomes.length; indice += 1) {
+  nomes[indice] = nomes[indice].toUpperCase()
+}
+`,
+
 }
 
   return (
@@ -138,7 +311,10 @@ Explicação do Zé
 
           <Menu>
             <Botao nome="Adriano" onClick={() => setAluno("adriano")} />
-            <Botao nome="ZÉ" onClick={() => setAluno("ze")} />
+            <Botao nome="Amorim" onClick={() => setAluno("Amorim")} />
+            <Botao nome="Emilly" onClick={() => setAluno("Emilly")} />
+            <Botao nome="Wesley" onClick={() => setAluno("Wesley")} />
+            <Botao nome="Kaique" onClick={() => setAluno("Kaique")} />
           </Menu>
 
    <button onClick={() => setMostrar(!mostrar)}>

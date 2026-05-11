@@ -11,7 +11,10 @@ export default function Conteudo() {
 
       <ul>
         <li><strong>Adriano:</strong> fez o BotaoTema, Menu e integração do App</li>
-        <li><strong>Zé:</strong> falou e pensou</li>
+        <li><strong>Amorim:</strong>  Completou os ambitos do rodape, além do card</li>
+        <li><strong>Emilly:</strong> Falou, pensou </li>
+        <li><strong>Wesley:</strong>  Falou, pensou </li>
+        <li><strong>Kaique:</strong> Falou, pensou </li>
       </ul>
     </div>
   );
